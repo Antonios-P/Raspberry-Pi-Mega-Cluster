@@ -18,8 +18,15 @@
   * Instruction Set: ARMv8-A 64-bit
   * Total Compute Modules in Cluster: 4032
   * Total CPU Cores in Cluster: 16128
+**Here is what it looks like:**
   
 * Mainboard: Turing Pi. This Mainboard holds 7 Raspberry Pi Compute Modules. It has rear IO for the master node in slot 1, GPIO Pins for every Compute Module, MicroSD Card slots for every Compute Module, and uses just one ethernet port to give ethernet to all the Compute Modules. They still get their own IP Address, so no worries there.
   * Number Needed for the whole cluster: 576
   * Power Consumption Per Mainboard: 40 Watts MAX 
   * Dimensions: 6.7 x 6.7 in.(120 x 120mm)(Length x Width). This is the size of a Mini-ITX Desktop-class motherboard.
+  
+**Here is what it looks like:**
+
+![Turing Pi](resources/specs.md/turing1.jpg)
+![Turing Pi](resources/specs.md/turing2.jpg)
+![Turing Pi](resources/specs.md/turing3.jpg)
