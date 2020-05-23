@@ -35,3 +35,9 @@
 ![Turing Pi](resources/specs.md/turing1.jpg)
 ![Turing Pi](resources/specs.md/turing2.jpg)
 ![Turing Pi](resources/specs.md/turing3.jpg)
+
+**Software:**
+
+* Operating System: **Raspbian Buster** *OR* **Ubuntu Server 20.04 LTS 64-bit**. For the CM3+, Raspbian is the best way to go, because it has only 1 GB of RAM and 64-bit Operating systems eat it up like crazy. If the CM4 or similar is available for purchase with 4GB of RAM, go with Ubuntu 20.04 LTS 64-bit. If Kubernetes doesn't support Ubuntu 20.04 LTS, then go with 18.04 LTS. This is the previous LTS version of Ubuntu that should be supported by Kubernetes. Ubuntu can be found [here](https://ubuntu.com/download/raspberry-pi) and Raspbian can be found [here](https://www.raspberrypi.org/downloads/raspbian/)
+
+* Kubernetes: **K3s** by **Rancher Labs**. This is the most lightweight flavor of Kubernetes available for the Raspberry Pi at the time of writing while maintaining advanced configuration and HA, or High Availability with a variety of database and local storage options. *Ansible* will be used to remotely manage the cluster using a playbook to first setup kubernetes on all the nodes, and then doing remote commands to all the nodes.
