@@ -42,4 +42,4 @@
 
 * Kubernetes: **K3s** by **Rancher Labs**. This is the most lightweight flavor of Kubernetes available for the Raspberry Pi at the time of writing while maintaining advanced configuration and HA, or High Availability with a variety of database and local storage options. *Ansible* will be used to remotely manage the cluster using a playbook to first setup kubernetes on all the nodes, and then doing remote commands to all the nodes.
 
-![K3s Logo](resources/specs.md/k3s.png)
+![K3s Logo](resources/specs.md/k3s.png) ![Ansible Logo](resources/specs.md/ansible.png)
