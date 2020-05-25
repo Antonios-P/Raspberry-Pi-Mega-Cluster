@@ -5,6 +5,7 @@
 1. [Full Dimensions, CAD Files, and Drawings](dimensions.md "Dimensions, 3D models, etc.")
 1. [Backup Server](backup-server.md "Backup Server")
 5. [Tips and Tricks to Save Time When Setting Up](save-time.md "Time-Saving Tips and Tricks")
+6. [Additional Recommended Software Tweaks](tweaks.md "Additional Software Tweaks")
 ---
 
 **Full Specifications Below:**

@@ -5,6 +5,7 @@
 1. [Full Dimensions, CAD Files, and Drawings](dimensions.md "Dimensions, 3D models, etc.")
 1. [Backup Server](backup-server.md "Backup Server")
 5. [Tips and Tricks to Save Time When Setting Up](save-time.md "Time-Saving Tips and Tricks")
+6. [Additional Recommended Software Tweaks](tweaks.md "Additional Software Tweaks")
 ---
 
  In order to have a redundant system and to cause as few headaches as possible, you will need to have a way to back up the Compute Modules' MicroSD cards or eMMC memory. It is important that you have enough storage for at least 1 backup of each device at any given time. For the master, it might be helpful to have more than one. For this reason, below is a part list of a backup server PC with enough storage to keep you going for a while.
