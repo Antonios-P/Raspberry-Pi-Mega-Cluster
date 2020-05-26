@@ -29,6 +29,8 @@
 * Mainboard: Turing Pi. This Mainboard holds seven Raspberry Pi Compute Modules. It has rear IO for the master node in slot 1, GPIO Pins for every Compute Module, MicroSD Card slots for every Compute Module, and uses just one ethernet port to give ethernet to all the Compute Modules. They still get their own IP Address, so no worries there.
   * Number Needed for the whole cluster: 576
   * Power Consumption Per Mainboard: 40 Watts MAX 
+  * Total Power Consumption per Rack: 12 kW
+  * Total Power Consumption Per Cluster: 24 kW
   * Dimensions: 6.7 x 6.7 in.(120 x 120mm)(Length x Width). This is the size of a Mini-ITX Desktop-class motherboard.
   
 **Here is what it looks like:**
@@ -37,11 +39,27 @@
 ![Turing Pi](resources/specs.md/turing2.jpg)
 ![Turing Pi](resources/specs.md/turing3.jpg)
 
-**CLuster Specifications:**
+**Cluster Specifications:**
 
 * Networking Capacity:
- * 576 Gbps *TOTAL* bandwidth between nodes
- * 1 Gbps to the internet<sup>1</sup>
+  * 576 Gbps *TOTAL* bandwidth between nodes
+  * 1 Gbps to the internet<sup>1</sup>
+  
+* Power Consumption:
+  * NETGEAR Ethernet Switch (48-port):
+    * Per Device: 40 Watts Operational
+    * Total Power Per Rack: 240 Watts Operational
+    * Total Power Per Cluster: 480 Watts
+    
+  * NETGEAR Ethernet Switch (8-port):
+    * Per Device: 8 Watts
+    * Total Power Per Rack: 8 Watts
+    * Total Power Per Cluster: 16 Watts
+    
+  * Noctua NF-A14 iPPC-3000 PWM:
+    * Per Device: 6.6 Watts MAX
+    * Total Power Per Rack: 52.8 Watts MAX
+    * Total Power Per Cluster: 105.6 Watts MAX
 
 **Software:**
 
