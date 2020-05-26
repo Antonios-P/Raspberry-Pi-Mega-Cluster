@@ -29,6 +29,8 @@
 * Mainboard: Turing Pi. This Mainboard holds seven Raspberry Pi Compute Modules. It has rear IO for the master node in slot 1, GPIO Pins for every Compute Module, MicroSD Card slots for every Compute Module, and uses just one ethernet port to give ethernet to all the Compute Modules. They still get their own IP Address, so no worries there.
   * Number Needed for the whole cluster: 576
   * Power Consumption Per Mainboard: 40 Watts MAX 
+  * Total Power Consumption per Rack: 12 kW
+  * Total Power Consumption Per Cluster: 24 kW
   * Dimensions: 6.7 x 6.7 in.(120 x 120mm)(Length x Width). This is the size of a Mini-ITX Desktop-class motherboard.
   
 **Here is what it looks like:**
@@ -37,6 +39,28 @@
 ![Turing Pi](resources/specs.md/turing2.jpg)
 ![Turing Pi](resources/specs.md/turing3.jpg)
 
+**Cluster Specifications:**
+
+* Networking Capacity:
+  * 576 Gbps *TOTAL* bandwidth between nodes
+  * 1 Gbps to the internet<sup>1</sup>
+  
+* Power Consumption:
+  * NETGEAR Ethernet Switch (48-port):
+    * Per Device: 40 Watts Operational
+    * Total Power Per Rack: 240 Watts Operational
+    * Total Power Per Cluster: 480 Watts
+    
+  * NETGEAR Ethernet Switch (8-port):
+    * Per Device: 8 Watts
+    * Total Power Per Rack: 8 Watts
+    * Total Power Per Cluster: 16 Watts
+    
+  * Noctua NF-A14 iPPC-3000 PWM:
+    * Per Device: 6.6 Watts MAX
+    * Total Power Per Rack: 52.8 Watts MAX
+    * Total Power Per Cluster: 105.6 Watts MAX
+
 **Software:**
 
 * Operating System: **Raspbian Buster** *OR* **Ubuntu Server 20.04 LTS 64-bit**. For the CM3+, Raspbian is the best way to go, because it has only 1 GB of RAM and 64-bit Operating systems eat it up like crazy. If the CM4 or similar is available for purchase with 4GB of RAM, go with Ubuntu 20.04 LTS 64-bit. If Kubernetes doesn't support Ubuntu 20.04 LTS, then go with 18.04 LTS. This is the previous LTS version of Ubuntu that should be supported by Kubernetes. Ubuntu can be found [here](https://ubuntu.com/download/raspberry-pi) and Raspbian can be found [here](https://www.raspberrypi.org/downloads/raspbian/).
@@ -44,3 +68,5 @@
 * Kubernetes: **K3s** by **Rancher Labs**. This is the most lightweight flavor of Kubernetes available for the Raspberry Pi at the time of writing while maintaining advanced configuration and HA, or High Availability with a variety of database and local storage options. *Ansible* will be used to remotely manage the cluster using a playbook to first setup kubernetes on all the nodes, and then doing remote commands to all the nodes.
 
 ![K3s Logo](resources/specs.md/k3s.png) ![Ansible Logo](resources/specs.md/ansible.png)
+
+<sup>1</sup> = Internet speeds may vary. You are limited by the nodes or your Internet Service Provider; whichever is slower.
