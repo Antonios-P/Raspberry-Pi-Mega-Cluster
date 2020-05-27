@@ -69,4 +69,6 @@
 
 ![K3s Logo](resources/specs.md/k3s.png) ![Ansible Logo](resources/specs.md/ansible.png)
 
+---
+
 <sup>1</sup> = Internet speeds may vary. You are limited by the nodes or your Internet Service Provider; whichever is slower.
