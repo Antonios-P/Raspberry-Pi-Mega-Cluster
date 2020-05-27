@@ -14,4 +14,4 @@
   * You can use the ```dd``` command to achieve this.
   * Make sure to shrink the file system and compress the image for maximum space efficiency. *More information on how to do this can be found in the wiki.*
   
-* ***Backup all the MicroSD cards to a central location.*** **|** This is very crucial. Since MicroSD cards don't have Write Endurance like AT ALL, they will eventually fail; much faster than an SSD or Hard Drive. The central location that i have chosen is the backup server which you can get to by visiting the link in the menu.
+* ***Backup all the MicroSD cards to a central location.*** **|** This is very crucial. Since MicroSD cards don't have very high read and write endurance, they will eventually fail; much faster than an SSD or Hard Drive. The central location that i have chosen is the backup server which you can get to by visiting the link in the menu.
