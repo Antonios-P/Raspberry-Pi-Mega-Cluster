@@ -10,6 +10,10 @@
 
 ***Below You will find everything related to CAD, dimensions, drawings, and where things are supposed to go and how they have to be aligned.***
 
+* **NETGEAR GS348T**: 17.3 x 8.1 x 1.7 in. (W x D x H)(1U height)
+
+* **NETGEAR GS108Ev3**: 6.2 x 4.1 x 1.1 in. (W x D x H)
+
 * **Turing Pi**
   * Grid Layout per Layer: 2 wide x 4 deep (as seen from the front of the rack)
     * there is 9 inches of space at the back for things like power supplies and cables
