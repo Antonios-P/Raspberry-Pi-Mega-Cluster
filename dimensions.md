@@ -19,7 +19,8 @@
     * there is 9 inches of space at the back for things like power supplies and cables
   * For every 5 layers of Turing Pis, 1 48-port switch needs to be installed
     * This can be repeated 7 times per rack to use the full potential of the 42U server rack. *2 racks will be used.*
+    * Below is a rough diagram showcasing this. *Excuse my drawing skills. No one said I was good at arts and crafts.*
     
-    *insert picture of the grid layout and the layer layout here*
+    ![Turing Pi Diagram](resources/dimensions.md/turing-pi-diagram.png)
     
 All CAD files can be found [here](resources/dimensions/CAD-Files).
