@@ -24,9 +24,9 @@
 
 ![NETGEAR GS348T](resources/part-list/switch-48.jpg)
 
-5. This is another Ethernet switch. This is the **NETGEAR GS108Ev3**. More of why we need that in a second. We will only need two of these. This will cost you roughly 100 USD total excl. Sales Tax. If you do the math, with the 48 ports available on the **GS348T**, one port in every **GS348T** will be used to connect either to the router which supplies the internet, or another switch. For this reason, you really only have 47 ports in each switch to connect. If you do 47 * 6 for one rack, you get 282. There will be 288 Turing Pis in each rack. There are not enough ports on the 6 **GS348T**s left to get the other 6 online. This is where this 8-port switch comes in handy. You can use 6 ports to connect the Turing Pis and one to connect to another switch, while having one port left over. You can pick up this switch [here](https://www.newegg.com/netgear-a8609955/p/12K-008X-00022?Description=8%20port%20gigabit%20switch%20managed&cm_re=8_port_gigabit_switch_managed-_-12K-008X-00022-_-Product&quicklink=true).
+5. For those of you that saw the previous item that was here (the 8-port NETGEAR gigabit switch), this is not needed anymore. Instead, we will use SFP to 1GBase-T adapters from *10Gtek*. These will take the SFP ports on each of the gigabit switches and then adapt them to gigabit ethernet. We will need 12 of these. They cost $21.99 each, which totals out to 263.88. They are on the expensive side. If you can find cheaper ones at the same or better quality level, be sure to let me know through an issue post on this repo. You can check them out [here](https://www.amazon.com/10Gtek-Compatible-SFP-GE-T-Transceiver-1000Base-T/dp/B01FRQJ1Y2?th=1)
 
-![NETGEAR GS108Ev3](resources/part-list/switch-8.jpg)
+![SFP to Ethernet adapter](resources/part-list/sfp-eth.jpg)
 
 6. In order for the Compute Modules to boot up, you will need MicroSD cards to store the Operating System. For this, I went with the **Sandisk Ultra 32GB** MicroSD Card. *bulkmemorycards* has these for really cheap when you buy in bulk. I would recommend buying 4050 so you have 18 spares in case of failure and minimal downtime. You find them [here](https://bulkmemorycards.com/shop/microsd-cards/microsd-32gb/sd-32gb-class-10/32gb-microsd-ultra-sandisk-memory-card-2/).
 
