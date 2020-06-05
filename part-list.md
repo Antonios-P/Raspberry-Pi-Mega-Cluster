@@ -24,7 +24,7 @@
 
 ![NETGEAR GS348T](resources/part-list/switch-48.jpg)
 
-5. For those of you that saw the previous item that was here (the 8-port NETGEAR gigabit switch), this is not needed anymore. Instead, we will use SFP to 1GBase-T adapters from *10Gtek*. These will take the SFP ports on each of the gigabit switches and then adapt them to gigabit ethernet. We will need 12 of these. They cost $21.99 each, which totals out to 263.88. They are on the expensive side. If you can find cheaper ones at the same or better quality level, be sure to let me know through an issue post on this repo. You can check them out [here](https://www.amazon.com/10Gtek-Compatible-SFP-GE-T-Transceiver-1000Base-T/dp/B01FRQJ1Y2?th=1)
+5. For those of you that saw the previous item that was here (the 8-port NETGEAR gigabit switch), this is not needed anymore. Instead, we will use **SFP to 1GBase-T adapters** from *10Gtek*. These will take the SFP ports on each of the gigabit switches and then adapt them to gigabit ethernet. We will need 12 of these. They cost 21.99 USD each, which totals out to 263.88 USD. They are on the expensive side. If you can find cheaper ones at the same or better quality level, be sure to let me know through an issue post on this repo. You can check them out [here](https://www.amazon.com/10Gtek-Compatible-SFP-GE-T-Transceiver-1000Base-T/dp/B01FRQJ1Y2?th=1)
 
 ![SFP to Ethernet adapter](resources/part-list/sfp-eth.jpg)
 
@@ -57,5 +57,9 @@
 ![Zalman MC1](resources/part-list/zalman-mc1.jpg) ![Noctua SYC1](resources/part-list/noctua-syc1.jpg)
 
 13. Last but not least, now that we have the cooling down, we need some way to get power to the Power Supplies. This is where these generic **Power Supply Cables** come in. You don't need anything special. You will need 70 of these cables bringing your total for this item to roughly 241.43 USD excl. Sales Tax. Prices may vary as you may need different sized cables. I went with 6 feet for the initial planning as that is the height of the rack. You may need longer or shorter cables depending on the layer number on the rack. I will update this section once that is figured out. This product is found [here](https://www.amazon.com/AmazonBasics-Power-Cord-6-Foot-Black/dp/B07RNLPXS7?ref_=s9_apbd_simh_hd_bw_b2VNE&pf_rd_r=224ZV1V67VMZ5R8CPGD8&pf_rd_p=92b5d6c2-449d-5f84-845e-5d3be79f8f69&pf_rd_s=merchandised-search-10&pf_rd_t=BROWSE&pf_rd_i=597260&th=1).
+
+14. Last, but certainly not least, we need the enclosure. This stores everything we need to run the server. In the case of the server space, this is called the server rack. For this build, I have chosen the **Tripp Lite SR42UBDP**. The extra depth of this model is perfect for this build. All the specs are nominal for this type of server. We will need two of these costing 3189.98 USD total at 1594.99 USD each. This is still expensive even for a high quality server rack, so if you find anything at comparable or better quality for a cheaper price, again, please let me know by posting an issue on this repo. You can buy the server rack [here](https://www.amazon.com/Tripp-Lite-Standard-Depth-Enclosure-SR42UB/dp/B003PC1EX2?th=1)
+
+![Tripp Lite SR42UBDP Server Rack](resources/part-list/server-rack.jpg)
 
 That about wraps it up for the part list. If you have any questions, feel free to open up an issue and make sure to check out the dimensions page to see how it all fits together!
